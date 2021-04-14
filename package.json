@@ -1,9 +1,9 @@
 
 {
   "name": "react-native-cursor",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "cursor for RN",
-  "main": "index.jsx",
+  "main": "index.tsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

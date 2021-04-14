@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.authors      = package["author"]
   
   s.platforms    = { :ios => "9.0", :osx => "10.14" }
-  s.source       = { :git => "https://github.com/author/RNCursor.git", :tag => "master" }
+  s.source       = { :git => "https://github.com/github/react-native-cursor.git", :tag => "master" }
   
   s.source_files = "macos/**/*.{h,m,mm}"
 
