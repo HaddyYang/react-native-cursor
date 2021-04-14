@@ -1,0 +1,23 @@
+
+{
+  "name": "react-native-cursor",
+  "version": "0.0.1",
+  "description": "cursor for RN",
+  "main": "index.jsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native",
+    "react-native-macos",
+    "cursor",
+    "react-native-cursor",
+  ],
+  "author": "haddyyang (https://github.com/haddyyang)",
+  "license": "",
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "homepage": "https://github.com/haddyyang/react-native-cursor#readme"
+}
