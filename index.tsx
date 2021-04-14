@@ -3,7 +3,7 @@ import React from "react";
 import { View, NativeModules } from 'react-native';
 
 //const { RNCursor } = NativeModules;
-const Cursor = NativeModules.Cursor;
+const RNCursor = NativeModules.RNCursor;
 
 
 type CURSOR_TYPES =
@@ -27,7 +27,7 @@ type CURSOR_TYPES =
   'IBeamCursorForVertical';
 
 export function setCursor(type: CURSOR_TYPES) {
-  Cursor.setCursor(type);
+  RNCursor.setCursor(type);
 }
 
 export class CursorView extends React.PureComponent {
