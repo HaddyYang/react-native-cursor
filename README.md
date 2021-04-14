@@ -3,7 +3,7 @@
 
 ## Getting started
 
-`$ npm install react-native-cursor --save`
+`$ yarn add github:haddyyang/react-native-cursor`
 
 ### Mostly automatic installation
 

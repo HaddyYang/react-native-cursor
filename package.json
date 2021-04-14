@@ -11,7 +11,7 @@
     "react-native",
     "react-native-macos",
     "cursor",
-    "react-native-cursor",
+    "react-native-cursor"
   ],
   "author": "haddyyang (https://github.com/haddyyang)",
   "license": "",
