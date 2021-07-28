@@ -1,9 +1,8 @@
-
 import React from "react";
 import { View, NativeModules } from 'react-native';
 
-//const { RNCursor } = NativeModules;
-const RNCursor = NativeModules.RNCursor;
+const { RNCursor } = NativeModules;
+// const Cursor = NativeModules.Cursor;
 
 
 type CURSOR_TYPES =
@@ -39,11 +38,13 @@ export class CursorView extends React.PureComponent {
   }
 
   onMouseEnter(e) {
-    setCursor(this.state.cursorType);
+    RNCursor.setCursor();
+    //setCursor(this.state.cursorType);
   }
 
   onMouseLeave(e) {
-    setCursor('arrow');
+    //setCursor('arrow');
+    RNCursor.resetCursor();
   }
 
   render() {
